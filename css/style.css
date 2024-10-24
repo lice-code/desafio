@@ -1,0 +1,109 @@
+/* Estilo básico e responsivo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.evento {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #6313cc;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7649b1;
+}
+
+.form-adicionar {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input {
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.image-container {
+    margin-right: 50px;
+    
+}
+
+.image-container img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 2%;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.info-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    font-size: 18px;
+}
