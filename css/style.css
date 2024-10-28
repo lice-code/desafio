@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #5e296e;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -31,7 +31,7 @@ main {
 }
 
 button {
-    background-color: #6313cc;
+    background-color: #910ee9;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #7649b1;
+    background-color: #910ee9;
 }
 
 .form-adicionar {
@@ -74,36 +74,4 @@ ul li {
     padding: 1rem;
     margin: 0.5rem 0;
     border-radius: 5px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-
-}
-
-.image-container {
-    margin-right: 50px;
-    
-}
-
-.image-container img {
-    max-width: 500px;
-    max-height: 500px;
-    border-radius: 2%;
-}
-
-.info-container {
-    text-align: center;
-}
-
-.info-container h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.info-container p {
-    font-size: 18px;
 }
